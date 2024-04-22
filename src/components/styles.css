@@ -1,0 +1,10 @@
+/* styles.css */
+.navLink {
+  font-weight: bold;
+  color: blue;
+}
+.loginButton {
+  background-color: lightgray;
+  border: 1px solid black;
+}
+/* Tambahkan kelas lain sesuai kebutuhan */
