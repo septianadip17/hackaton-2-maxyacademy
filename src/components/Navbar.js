@@ -61,7 +61,7 @@ function NavbarSection() {
     <>
       <Navbar bg="white" expand="md">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               src="https://tbnindonesia.org/images/logo-tbnindonesia.svg"
               alt="logo"
@@ -74,7 +74,7 @@ function NavbarSection() {
             className="justify-content-end"
           >
             <Nav className="ml-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#">About Us</Nav.Link>
               <Nav.Link href="#">Event</Nav.Link>
               <Nav.Link href="#">Blog</Nav.Link>

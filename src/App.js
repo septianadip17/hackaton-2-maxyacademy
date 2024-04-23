@@ -12,9 +12,9 @@ class App extends Component {
         <NavbarSection/>
         <Header/>
         <AboutUs/>
-        {/* <Events/>
+        <Events/>
         <Partners/>
-        <Footer/> */}
+        <Footer/>
       </div>
     );  
   }  
