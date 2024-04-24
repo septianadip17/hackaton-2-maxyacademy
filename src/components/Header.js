@@ -40,7 +40,7 @@ const Header = () => {
             <h1 className="text-light">
               Mengubah Wajah Digital, <br /> Membangun Transformasi Sosial
             </h1>
-            <button className="btn btn-primary">
+            <button className="btn btn-success">
               <a
                 href="https://tbnindonesia.org/"
                 className="text-decoration-none text-light"
