@@ -27,7 +27,7 @@ const Blog = () => {
                 TBN Indonesia Menjadi Jembatan Para Social Entrepreneurship
               </h1>
               <h4>Dunia yang saat ini kita huni semakin</h4>
-              <button className="btn btn-outline-success">See More</button>
+              <button className="btn btn-success"><a href="/blog/article1" style={{textDecoration: "none", color:"white"}}>See More</a></button>
             </div>
           </div>
         </div>

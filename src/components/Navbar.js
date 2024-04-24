@@ -77,7 +77,7 @@ function NavbarSection() {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/event">Event</Nav.Link>
-              <Nav.Link href="#">Blog</Nav.Link>
+              <Nav.Link href="/blog">Blog</Nav.Link>
               <Nav.Link
                 onClick={() => setShowLoginModal(true)}
                 style={{ backgroundColor: "#c9e34a" }}
