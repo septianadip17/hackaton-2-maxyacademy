@@ -3,7 +3,7 @@ import AboutUs from "./components/AboutUs";
 import Events from "./components/Events";
 import Blog from "./components/Blog";
 import Home from "./components/Home";
-import Article1 from "./components/articles/Article1";
+import Article1 from "./components/Article1";
 
 export default function App() {
   return (

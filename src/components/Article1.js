@@ -1,6 +1,6 @@
 import React from "react";
-import NavbarSection from "../Navbar";
-import Footer from "../Footer";
+import NavbarSection from "./Navbar";
+import Footer from "./Footer";
 
 const Article1 = () => {
   return (
