@@ -1,6 +1,5 @@
 import React from "react";
-import NavbarSection from "./Navbar";
-import Footer from "./Footer";
+
 
 const Events = () => {
   const styles = {
@@ -35,7 +34,6 @@ const Events = () => {
 
   return (
     <>
-      <NavbarSection />
       <div className="container mb-4">
         <h1 className="text-center p-2 m-4" style={styles.h1}>
           Upcoming Events
@@ -91,7 +89,6 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

@@ -1,6 +1,4 @@
 import React from "react";
-import NavbarSection from "./Navbar";
-import Footer from "./Footer";
 
 const styles = {
   about: {
@@ -39,7 +37,6 @@ const AboutUs = () => {
   return (
     // About Section
     <>
-    <NavbarSection/>
       <div style={styles.about}>
         <div className="container about-us">
           <div className="col text-center">
@@ -146,7 +143,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </>
   );
 };
