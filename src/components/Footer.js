@@ -12,7 +12,7 @@ const Footer = () => {
               width="300px"
             />
           </div>
-          <div className="col">
+          <div className="col align-items-center">
             <h4 className="text-center">Contact Us</h4>
             <p>
               Indonesia Team Impact Hub Lippo Thamrin Lt.5 #0503
@@ -23,7 +23,7 @@ const Footer = () => {
               Email: info@tbnindonesia.org
             </p>
           </div>
-          <div className="col text-center">
+          <div className="col text-center align-content-center">
             <h4 className="text-center">Connect with Us</h4>
             <a href="https://www.instagram.com/tbn.indonesia/" target="_blank" rel="noreferrer">
               <img
