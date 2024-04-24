@@ -14,7 +14,7 @@ class App extends Component {
         <Header/>
         <AboutUs/>
         <Events/>
-        <Partners/>
+        {/* <Partners/> */}
         <Footer/>
       </div>
       <div className="fixed-bottom right-100 p-3" style={{zIndex: "6", left: "initial"}}>

@@ -23,15 +23,6 @@ const styles = {
     marginTop: "5px",
     marginBottom: "5px",
   },
-  middleSection: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#464f1a",
-    color: "white", 
-    padding: "50px 0",
-  },  
   getInvolved: {
     backgroundColor: "#eef6c7",
   },
@@ -80,7 +71,7 @@ const AboutUs = () => {
         </div>
 
         {/* Vission and Mission */}
-        <div className="row text-center align-content-center p-3" style={styles.middleSection}>
+
         <div className="row text-center align-content-center p-3">
           <div className="col text-center">
             <div className="card mb-3 mx-auto" style={styles.card}>
@@ -105,7 +96,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-        </div>
 
       {/* Get Involved Section */}
       <div style={styles.getInvolved}>
@@ -118,7 +108,11 @@ const AboutUs = () => {
             <div className="col d-flex flex-column justify-content-center">
               <h4>Invesment</h4>
               <p>
-                Are you an entrepreneur seeking funding or an investor interested in joining our network? We function as a strategic bridge connecting entrepreneurs and investors in Indonesia, offering distinctive investment services tailored to meet the market's needs.
+                Are you an entrepreneur seeking funding or an investor
+                interested in joining our network? We function as a strategic
+                bridge connecting entrepreneurs and investors in Indonesia,
+                offering distinctive investment services tailored to meet the
+                market's needs.
               </p>
             </div>
             <div className="col">
@@ -132,14 +126,18 @@ const AboutUs = () => {
           <div className="row">
             <div className="col">
               <img
-                src="https://cdni.iconscout.com/illustration/free/thumb/free-woman-discussing-in-park-1681823-1429092.png?f=webp"
+                src="https://cdni.iconscout.com/illustration/free/thumb/free-concept-of-investment-and-saving-money-2112516-1785596.png"
                 alt="woman discussing in park"
               />
             </div>
             <div className="col text-end">
               <h4>Advisory</h4>
               <p>
-                Utilizing its core network and expertise, we have established an advisory entity that provides a wide range of key services. These services include research, capacity building, on-demand consultation, and educational content creation, all aimed at creating a positive impact for our extensive beneficiaries.
+                Utilizing its core network and expertise, we have established an
+                advisory entity that provides a wide range of key services.
+                These services include research, capacity building, on-demand
+                consultation, and educational content creation, all aimed at
+                creating a positive impact for our extensive beneficiaries.
               </p>
             </div>
           </div>
