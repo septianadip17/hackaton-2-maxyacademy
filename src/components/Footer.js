@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer style={{ backgroundColor: "#464f1a" }}>
-        <div className="row text-light">
+        <div className="row text-light pt-5">
           <div className="col d-flex justify-content-center align-items-center">
             <img
               src="https://tbnconference.icmanagement.id/tbn_content/uploads/2023/01/tbn-indonesia-logo-white.png"
@@ -57,9 +57,9 @@ const Footer = () => {
         </div>
         <div
           className="text-center text-light p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+          style={{ backgroundColor: "#5a6621" }}
         >
-          © 2024 Group 4 MSIB Maxy Academy
+          <strong>© TBN Indonesia. All Rights Reserved.</strong>
         </div>
       </footer>
     </>

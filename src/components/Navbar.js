@@ -75,8 +75,8 @@ function NavbarSection() {
           >
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#">About Us</Nav.Link>
-              <Nav.Link href="#">Event</Nav.Link>
+              <Nav.Link href="/about">About Us</Nav.Link>
+              <Nav.Link href="/event">Event</Nav.Link>
               <Nav.Link href="#">Blog</Nav.Link>
               <Nav.Link
                 onClick={() => setShowLoginModal(true)}

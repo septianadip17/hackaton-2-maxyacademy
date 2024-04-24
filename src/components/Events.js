@@ -36,9 +36,9 @@ const Events = () => {
       <h1 className="text-center p-2 m-4" style={styles.h1}>
         Upcoming Events
       </h1>
-      <div className="row align-content-center align-items-center d-flex justify-content-center">
-        <div className="col-sm-6">
-          <div className="card mb-3" style={styles.card}>
+      <div className="row justify-content-center">
+        <div className="col">
+          <div className="card" style={styles.card}>
             <div className="card-body d-flex flex-column align-items-center">
               <img
                 src="https://www.tbnindonesia.org/images/tbn-asia-conference-2023-2.jpg"
@@ -61,8 +61,8 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
-          <div className="card mb-3" style={styles.card}>
+        <div className="col">
+          <div className="card" style={styles.card}>
             <div className="card-body d-flex flex-column align-items-center">
               <img
                 src="https://www.tbnindonesia.org/images/transformational-sales-conference-2023-.jpg"
