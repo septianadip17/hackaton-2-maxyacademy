@@ -37,7 +37,7 @@ const AboutUs = () => {
   return (
     // About Section
     <>
-      <div style={styles.about}>
+      <div style={styles.about} id="about">
         <div className="container about-us">
           <div className="col text-center">
             <h2 className="text-light p-3 mb-2" style={styles.heading1}>

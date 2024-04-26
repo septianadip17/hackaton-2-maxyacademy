@@ -59,7 +59,7 @@ function NavbarSection() {
 
   return (
     <>
-      <Navbar bg="white" expand="md">
+      <Navbar bg="white" expand="md" className="fixed-top">
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -75,8 +75,8 @@ function NavbarSection() {
           >
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/event">Event</Nav.Link>
+              <Nav.Link href="#about">About Us</Nav.Link>
+              <Nav.Link href="#event">Event</Nav.Link>
               <Nav.Link href="/blog">Blog</Nav.Link>
               <Nav.Link
                 onClick={() => setShowLoginModal(true)}

@@ -34,7 +34,7 @@ const Events = () => {
 
   return (
     <>
-      <div className="container mb-4">
+      <div id="event" className="container mb-4">
         <h1 className="text-center p-2 m-4" style={styles.h1}>
           Upcoming Events
         </h1>
