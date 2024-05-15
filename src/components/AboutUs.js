@@ -1,4 +1,5 @@
 import React from "react";
+import humanStudy from "../images/human-study.png";
 
 const styles = {
   about: {
@@ -31,6 +32,9 @@ const styles = {
     textDecoration: "underline",
     textDecorationColor: "#464f1a",
   },
+  p:{
+    textAlign: "justify",
+  },
 };
 
 const AboutUs = () => {
@@ -55,8 +59,8 @@ const AboutUs = () => {
                 width="300px"
               />
             </div>
-            <div className="col text-justify text-light">
-              <p>
+            <div className="col text-light">
+              <p style={styles.p}>
                 TBN Indonesia, a social foundation that focuses on social
                 transformation through entrepreneurship, has a website that is
                 less than optimal in communicating its mission and vision and in
@@ -100,14 +104,14 @@ const AboutUs = () => {
       {/* Get Involved Section */}
       <div style={styles.getInvolved}>
         <h2 className="text-center p-3 mb-2" style={styles.headingInvolved}>
-          Get Involved
+          <b>Get Involved</b>
         </h2>
         {/* invesment */}
         <div className="container">
           <div className="row">
             <div className="col d-flex flex-column justify-content-center">
-              <h4>Invesment</h4>
-              <p>
+              <h4><b>Invesment</b></h4>
+              <p style={styles.p}>
                 Are you an entrepreneur seeking funding or an investor
                 interested in joining our network? We function as a strategic
                 bridge connecting entrepreneurs and investors in Indonesia,
@@ -126,13 +130,13 @@ const AboutUs = () => {
           <div className="row">
             <div className="col">
               <img
-                src="https://cdni.iconscout.com/illustration/free/thumb/free-concept-of-investment-and-saving-money-2112516-1785596.png"
+                src={humanStudy}
                 alt="woman discussing in park"
               />
             </div>
             <div className="col text-end">
-              <h4>Advisory</h4>
-              <p>
+              <h4><b>Advisory</b></h4>
+              <p style={styles.p}>
                 Utilizing its core network and expertise, we have established an
                 advisory entity that provides a wide range of key services.
                 These services include research, capacity building, on-demand

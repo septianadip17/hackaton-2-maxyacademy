@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Events = () => {
   const styles = {
     h1: {
@@ -9,11 +8,14 @@ const Events = () => {
     },
     card: {
       backgroundColor: "#eef6c7",
-      width: "500px",
+      width: "100%",
+      maxWidth: "500px",
+      margin: "0 auto",
     },
     img: {
-      width: "300px",
+      width: "400px",
       height: "400px",
+      objectFit: "cover",
     },
     button: {
       backgroundColor: "#c9e34a",
@@ -38,8 +40,8 @@ const Events = () => {
         <h1 className="text-center p-2 m-4" style={styles.h1}>
           Upcoming Events
         </h1>
-        <div className="row justify-content-center">
-          <div className="col">
+        <div className="row justify-content-center flex-sm-wrap">
+          <div className="col-sm-6 mb-3">
             <div className="card" style={styles.card}>
               <div className="card-body d-flex flex-column align-items-center">
                 <img
@@ -63,7 +65,7 @@ const Events = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-6 mb-3">
             <div className="card" style={styles.card}>
               <div className="card-body d-flex flex-column align-items-center">
                 <img

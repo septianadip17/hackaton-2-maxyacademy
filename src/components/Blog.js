@@ -1,6 +1,6 @@
 import React from "react";
-import NavbarSection from "./Navbar";
-import Footer from "./Footer";
+import NavbarSection from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const styles = {
   card: {
@@ -14,7 +14,7 @@ const Blog = () => {
       <NavbarSection />
       <div className="container">
         <div className="container p-5" style={{ backgroundColor: "#edf9b3" }}>
-          <div className="row">
+          <div className="row mt-5">
             <div className="col">
               <img
                 src="https://asset-2.tstatic.net/wartakota/foto/bank/images/pungut-sampah-ciliwung.jpg"
